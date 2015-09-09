@@ -1,0 +1,17 @@
+{
+  "name": "bundling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "([ -n \"$(which webpack)\" ] && [ -n \"$(which browserify)\" ]) || npm install -g webpack browserify"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify-css": "^0.7.1",
+    "css-loader": "^0.17.0",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.12.1"
+  }
+}
