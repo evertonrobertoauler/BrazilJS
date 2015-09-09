@@ -1,4 +1,4 @@
-# Feramentas para automação de tarefas
+# Ferramentas para automação de tarefas
 
 ## Instalando as dependências
 

@@ -1,0 +1,18 @@
+{
+  "name": "bundling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "[ -n \"$(which webpack)\" ] || npm install -g webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "awesome-typescript-loader": "^0.13.1",
+    "babel-core": "^5.8.23",
+    "babel-loader": "^5.3.2",
+    "typescript": "^1.5.3",
+    "webpack": "^1.12.1"
+  }
+}

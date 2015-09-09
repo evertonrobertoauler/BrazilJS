@@ -2,3 +2,4 @@ node_modules
 .idea
 *.min.js
 *.bundle.js
+*.bundle.js.map

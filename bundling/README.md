@@ -1,4 +1,4 @@
-# Feramentas para Bundling
+# Ferramentas para Bundling
 
 ## Instalando as dependências
 
