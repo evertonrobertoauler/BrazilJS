@@ -6,7 +6,7 @@
 	$ npm install
 
 
-## Fazendo o bundle da aplicação
+## Rodando a aplicação
 
 
 	$ node index.js
