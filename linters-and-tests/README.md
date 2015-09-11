@@ -6,25 +6,25 @@
 	$ npm install
 
 
-## Servir a aplicacao
+## Servir a aplicação
 
 
 	$ npm run server
 
 
-## Rodar Unit tests
+## Rodar o Karma
 
 
 	$ npm run karma
 
 
-## Rodar End-to-End tests
+## Rodar o Protractor
 
 
 	$ npm run protractor
 
 
-## Rodar todos os testes
+## Rodar o karma e o Protractor
 
 
 	$ npm run test
