@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "postinstall": "([ -n \"$(which webpack)\" ] && [ -n \"$(which protractor)\" ] && [ -n \"$(which karma)\" ] && [ -n \"$(which live-server)\" ]) || npm install -g webpack protractor karma-cli live-server && webdriver-manager update --standalone",
+    "postinstall": "([ -n \"$(which webpack)\" ] && [ -n \"$(which protractor)\" ] && [ -n \"$(which karma)\" ] && [ -n \"$(which live-server)\" ] && [ -n \"$(which http-server)\" ]) || npm install -g webpack protractor karma-cli live-server http-server && webdriver-manager update --standalone",
     "karma": "karma start",
     "protractor": "gulp protractor",
     "test": "npm run karma && npm run protractor",
