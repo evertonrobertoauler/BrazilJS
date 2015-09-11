@@ -9,26 +9,29 @@
 ## Servir a aplicacao
 
 
-  $ npm run server
+	$ npm run server
 
 
 ## Rodar Unit tests
 
 
-  $ npm run karma
+	$ npm run karma
 
 
 ## Rodar End-to-End tests
 
 
-  $ npm run protractor
+	$ npm run protractor
 
 
 ## Rodar todos os testes
 
 
-  $ npm run test
+	$ npm run test
+
 
 ou
 
-  $ npm test
+
+	$ npm test
+
